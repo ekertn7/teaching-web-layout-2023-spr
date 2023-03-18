@@ -20,125 +20,30 @@ a, a:hover, a:active, a:visited {
 	cursor: pointer; /* выбор типа курсора */
 }
 
-.header {
-	display: block; /* выбор типа отображения элемента */
-	position: fixed; /* фиксированное позиционирование элемента */
-	right: 0; /* отступ справа */
-	left: 0; /* отступ слева */
-	top: 0; /* отступ сверху */
-	background-color: #444444; /* цвет фона */
-	text-align: center; /* выравнивание текста */
-	padding: 24px; /* внутренний отступ */
-	z-index: 4; /* положение элемента по оси z */
-}
-
-.header a {
-	color: #fafafa; /* цвет шрифта */
-	margin: 0 10px; /* внешний отступ */
-	transition-duration: .4s; /* продолжительность анимации */
-	transition-timing-function: ease; /* тип анимации */
-}
-
-.header a:hover {
-	color: rgb(239, 221, 185); /* цвет шрифта */
-}
-
-.content {
-	margin-top: 0; /* внешний отступ сверху */
-	margin-bottom: 0; /* внешний отступ снизу */
-	margin-left: 0; /* внешний отступ слева */
-	margin-right: 0; /* внешний отступ справа */
-	/* эквивалентно записи: margin: 10px 0 0 0; */
-
-	padding: 50px; /* внутренние отступы */
-	/* также существуют значения: padding-left, padding-top, padding-bottom, padding-right */
-}
-
 h1 {
-	color: hwb(240 0% 0%); /* цвет шрифта */
-}
-
-h2 {
-	color: blueviolet; /* цвет шрифта */
-}
-
-h3 {
-	color: inherit; /* цвет шрифта */
-}
-
-h4 {
-	color: hsl(25, 75%, 47%); /* цвет шрифта */
-}
-
-h5 {
-	color: #ff0000; /* цвет шрифта */
-}
-
-h6 {
-	color: rgb(86, 162, 11); /* цвет шрифта */
-}
-
-h1, h2, h3, h4, h5, h6 {
-	text-align: center; /* выравнивание текста */
+	color: rosybrown;
+	margin-bottom: 20px;
+	text-align: center;
 }
 
 form {
 	display: block;
 	width: 80%;
 	margin: 0 auto;
-	background-color: rgb(243, 219, 200);
-	border-radius: 10px;
-	padding: 20px;
-	position: relative;
 }
 
-form input[type=text] {
+input {
+	display: block;
 	border: none;
 	border: 2px solid #bdbdbd;
 	background-color: #fafafa;
 	border-radius: 10px;
 	cursor: text;
-	display: block;
-	width: calc(100% - 4px - 30px);
-	margin: 0 0 20px 0;
+	margin: 0 auto 20px auto;
 	padding: 15px;
 	font-size: 26px;
 }
 
-form button {
-	display: block;
-	margin: 0 auto;
-	border: none;
-	background-color: aqua;
-	font-size: 24px;
-	border-radius: 10px;
-	padding: 15px;
-	font-weight: bold;
-	font-style: italic;
+input[type=file] {
 	cursor: pointer;
-}
-
-form h1 {
-	margin-bottom: 20px;
-}
-
-form h2 {
-	text-align: inherit;
-	color: inherit;
-}
-
-form span {
-	display: block;
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	background-color: red;
-	text-align: center;
-	color: white;
-	padding: 4px;
-	position: absolute;
-	right: -12px;
-	top: -12px;
-	cursor: pointer;
-	z-index: 3;
 }
