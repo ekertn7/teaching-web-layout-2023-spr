@@ -20,6 +20,11 @@ a, a:hover, a:active, a:visited {
 	cursor: pointer; /* выбор типа курсора */
 }
 
+.content {
+	display: block;
+	margin: 0 auto 50px auto;
+}
+
 h1 {
 	color: rosybrown;
 	margin-bottom: 20px;
@@ -46,4 +51,56 @@ input {
 
 input[type=file] {
 	cursor: pointer;
+}
+
+.cb {
+	display: block;
+	width: 100%;
+	margin: 10px auto;
+}
+
+input[type=checkbox] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.cb > div {
+	display: block;
+	background-color: aquamarine;
+	padding: 30px 30px 30px 50px;
+	border-radius: 4px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.cb > div * {
+	cursor: pointer;
+}
+
+.cb > div > h3 {
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.cb > div::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	display: block;
+	width: 0;
+	height: 100%;
+	background-color: #28d49b;
+	-webkit-transition-duration: .2s;
+	-moz-transition-duration: .2s;
+	-ms-transition-duration: .2s;
+	-o-transition-duration: .2s;
+	transition-duration: .2s;
+}
+
+.cb > input[type=checkbox]:checked + div::before {
+	width: 10px;
 }
