@@ -1,10 +1,16 @@
 # Вы перешли в раздел с лекциями.
 
-## Лекция от 11.03.2023:
+## Лекция от 17.03.2023:
 
 Основные темы:
-- создание таблицы;
-- использование псевдоклассов first-child, last-child, nth-child.
+- локальное подключение шрифтов.
+
+## Полезные ресурсы:
+- [Справочник HTML (htmlbook)](http://htmlbook.ru/)
+- [Справочник HTML (mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTML/)
+- [Справочник CSS (mozilla)](https://developer.mozilla.org/ru/docs/Web/CSS)
+- [Один из сайтов с иконками](https://www.flaticon.com/)
+- [Один из сайтов по уменьшению размера изображения](https://imagecompressor.com/ru/)
 
 ## Как тут работать:
 - сделайте форк репозитория (кнопка находится в правом верхнем углу, **обязательно уберите галочку с пункта "copy the master branch only"**);

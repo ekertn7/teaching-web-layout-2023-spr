@@ -1,3 +1,12 @@
+@font-face {
+	font-family: "Theater-Atlas-Deco";
+	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.eot");
+	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.woff") format("woff");
+	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.ttf") format("truetype");
+	font-style: normal;
+}
+
 * {
 	outline: 0; /* убираем рамку для некоторых элементов */
 	cursor: default; /* выбор типа курсора */
@@ -20,36 +29,12 @@ a, a:hover, a:active, a:visited {
 	cursor: pointer; /* выбор типа курсора */
 }
 
-table {
+h1 {
+	color: rgb(138, 70, 70);
+	margin-bottom: 20px;
 	text-align: center;
 }
 
-tfoot {
-	color: #fa8d39;
-}
-
-table tr td:first-child, thead {
-	text-align: left;
-	font-weight: 900;
-}
-
-table thead tr td:nth-child(2) {
-	color: #08a100;
-}
-
-table thead tr td:nth-child(3) {
-	color: #bcd100;
-}
-
-table tbody tr:nth-child(3n) {
-	font-style: italic;
-}
-
-table tbody tr td:last-child {
-	font-style: italic;
-}
-
-table td {
-	width: 100px;
-	border: 1px solid black;
+h1:first-child {
+	font-family: "Theater-Atlas-Deco";
 }
