@@ -126,3 +126,19 @@ form h2 {
 	text-align: inherit;
 	color: inherit;
 }
+
+form span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: red;
+	text-align: center;
+	color: white;
+	padding: 4px;
+	position: absolute;
+	right: -12px;
+	top: -12px;
+	cursor: pointer;
+	z-index: 3;
+}
