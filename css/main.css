@@ -20,134 +20,36 @@ a, a:hover, a:active, a:visited {
 	cursor: pointer; /* выбор типа курсора */
 }
 
-.content {
-	display: block;
-	margin: 0 auto 50px auto;
-}
-
-h1 {
-	color: rosybrown;
-	margin-bottom: 20px;
+table {
 	text-align: center;
 }
 
-form {
-	display: block;
-	width: 80%;
-	margin: 0 auto;
+tfoot {
+	color: #fa8d39;
 }
 
-input {
-	display: block;
-	border: none;
-	border: 2px solid #bdbdbd;
-	background-color: #fafafa;
-	border-radius: 10px;
-	cursor: text;
-	margin: 0 auto 20px auto;
-	padding: 15px;
-	font-size: 26px;
+table tr td:first-child, thead {
+	text-align: left;
+	font-weight: 900;
 }
 
-input[type=file] {
-	cursor: pointer;
+table thead tr td:nth-child(2) {
+	color: #08a100;
 }
 
-.cb {
-	display: block;
-	width: 100%;
-	margin: 10px auto;
+table thead tr td:nth-child(3) {
+	color: #bcd100;
 }
 
-input[type=checkbox] {
-	position: absolute;
-	z-index: -1;
-	opacity: 0;
+table tbody tr:nth-child(3n) {
+	font-style: italic;
 }
 
-.cb > div {
-	display: block;
-	background-color: aquamarine;
-	padding: 30px 30px 30px 50px;
-	border-radius: 4px;
-	position: relative;
-	overflow: hidden;
-	cursor: pointer;
+table tbody tr td:last-child {
+	font-style: italic;
 }
 
-.cb > div * {
-	cursor: pointer;
-}
-
-.cb > div > h3 {
-	font-weight: bold;
-	margin-bottom: 2px;
-}
-
-.cb > div::before {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	bottom: 0;
-	display: block;
-	width: 0;
-	height: 100%;
-	background-color: #28d49b;
-	-webkit-transition-duration: .2s;
-	-moz-transition-duration: .2s;
-	-ms-transition-duration: .2s;
-	-o-transition-duration: .2s;
-	transition-duration: .2s;
-}
-
-.cb > input[type=checkbox]:checked + div::before {
-	width: 10px;
-}
-
-.rb {
-	display: block;
-	width: 100%;
-	margin: 10px auto;
-}
-
-input[type=radio] {
-	position: absolute;
-	z-index: -1;
-	opacity: 0;
-}
-
-.rb > div {
-	display: block;
-	background-color: #efef37;
-	padding: 30px 30px 30px 50px;
-	border-radius: 4px;
-	position: relative;
-	overflow: hidden;
-	cursor: pointer;
-}
-
-.rb * {
-	cursor: pointer;
-}
-
-.rb > div::after {
-	content: '';
-	position: absolute;
-	left: 14px;
-	top: calc(50% - 12px);
-	display: block;
-	width: 24px;
-	height: 24px;
-	border-radius: 50%;
-	background-color: #fafafa;
-	-webkit-transition-duration: .2s;
-	-moz-transition-duration: .2s;
-	-ms-transition-duration: .2s;
-	-o-transition-duration: .2s;
-	transition-duration: .2s;
-}
-
-.rb > input[type=radio]:checked + div::after {
-	background-color: #fa8d39;
+table td {
+	width: 100px;
+	border: 1px solid black;
 }
