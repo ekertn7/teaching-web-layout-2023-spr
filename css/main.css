@@ -104,3 +104,50 @@ input[type=checkbox] {
 .cb > input[type=checkbox]:checked + div::before {
 	width: 10px;
 }
+
+.rb {
+	display: block;
+	width: 100%;
+	margin: 10px auto;
+}
+
+input[type=radio] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.rb > div {
+	display: block;
+	background-color: #efef37;
+	padding: 30px 30px 30px 50px;
+	border-radius: 4px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.rb * {
+	cursor: pointer;
+}
+
+.rb > div::after {
+	content: '';
+	position: absolute;
+	left: 14px;
+	top: calc(50% - 12px);
+	display: block;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: #fafafa;
+	-webkit-transition-duration: .2s;
+	-moz-transition-duration: .2s;
+	-ms-transition-duration: .2s;
+	-o-transition-duration: .2s;
+	transition-duration: .2s;
+}
+
+.rb > input[type=radio]:checked + div::after {
+	background-color: #fa8d39;
+}
