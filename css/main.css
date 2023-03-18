@@ -37,4 +37,10 @@ h1 {
 
 h1:first-child {
 	font-family: "Theater-Atlas-Deco";
+	color: #36d21a;
+}
+
+h1:nth-child(2) {
+	font-family: "Pacifico";
+	color: rgb(138, 43, 226);
 }
