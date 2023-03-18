@@ -41,3 +41,40 @@ a, a:hover, a:active, a:visited {
 .header a:hover {
 	color: rgb(239, 221, 185); /* цвет шрифта */
 }
+
+.content {
+	margin-top: 50px; /* внешний отступ сверху */
+	margin-bottom: 0; /* внешний отступ снизу */
+	margin-left: 0; /* внешний отступ слева */
+	margin-right: 0; /* внешний отступ справа */
+	/* эквивалентно записи: margin: 10px 0 0 0; */
+
+	padding: 50px; /* внутренние отступы */
+	/* также существуют значения: padding-left, padding-top, padding-bottom, padding-right */
+
+	text-align: center; /* выравнивание текста */
+}
+
+h1 {
+	color: hwb(240 0% 0%); /* цвет шрифта */
+}
+
+h2 {
+	color: blueviolet; /* цвет шрифта */
+}
+
+h3 {
+	color: inherit; /* цвет шрифта */
+}
+
+h4 {
+	color: hsl(25, 75%, 47%); /* цвет шрифта */
+}
+
+h5 {
+	color: #ff0000; /* цвет шрифта */
+}
+
+h6 {
+	color: rgb(86, 162, 11); /* цвет шрифта */
+}
