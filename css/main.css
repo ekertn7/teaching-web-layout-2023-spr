@@ -1,0 +1,43 @@
+* {
+	outline: 0; /* убираем рамку для некоторых элементов */
+	cursor: default; /* выбор типа курсора */
+	border-radius: 0; /* закругление краев */
+	margin: 0; /* внешний отступ */
+	padding: 0; /* внутренний отступ */
+}
+
+body {
+	background-color: transparent; /* прозрачный фон */
+	font-family: Arial, Helvetica, sans-serif; /* семейство шрифтов */
+	font-weight: normal; /* начертание шрифта */
+	font-size: 18px; /* размер шрифта */
+	color: #444444; /* цвет шрифта */
+}
+
+a, a:hover, a:active, a:visited {
+	text-decoration: none; /* убираем декоративные линии у текста */
+	cursor: pointer; /* выбор типа курсора */
+}
+
+.header {
+	display: block; /* выбор типа отображения элемента */
+	position: fixed; /* фиксированное позиционирование элемента */
+	right: 0; /* отступ справа */
+	left: 0; /* отступ слева */
+	top: 0; /* отступ сверху */
+	background-color: #444444; /* цвет фона */
+	text-align: center; /* выравнивание текста */
+	padding: 24px; /* внутренний отступ */
+	z-index: 4; /* положение элемента по оси z */
+}
+
+.header a {
+	color: #fafafa; /* цвет шрифта */
+	margin: 0 10px; /* внешний отступ */
+	transition-duration: .4s; /* продолжительность анимации */
+	transition-timing-function: ease; /* тип анимации */
+}
+
+.header a:hover {
+	color: rgb(239, 221, 185); /* цвет шрифта */
+}
