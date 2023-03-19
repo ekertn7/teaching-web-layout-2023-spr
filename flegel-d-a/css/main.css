@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(/fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: Theater;
+    src: url(/fonts/Theater-Atlas-Deco.ttf);
+}
+
+@font-face {
+    font-family: Natural;
+    src: url(/fonts/Natural-Mono-Regular.ttf);
+}
+
+.main {
+    width: 500px;
+    background-color: rgb(241, 233, 210);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 40px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Theater;
+    font-size: 32px;
+}
+
+.content {
+    font-family: Natural;
+    font-size: 18px;
+}
+
+.author {
+    font-family: Pacifico;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.button {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: auto;
+}
+
+.button > *  {
+    color: white;
+    border: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 10px;
+    padding: 5px;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+}
+
+.button-like {
+    background-color: rgb(87, 190, 96);
+    border-color: rgb(23, 146, 33);
+}
+
+.button-like:hover {
+    cursor: pointer;
+    background-color: rgb(23, 146, 33);
+}
+
+.button-dislike {
+    background-color: rgb(219, 135, 79);
+    border-color: rgb(155, 94, 2);
+}
+
+.button-dislike:hover {
+    cursor: pointer;
+    background-color: rgb(155, 94, 2);
+}
