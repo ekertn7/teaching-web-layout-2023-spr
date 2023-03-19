@@ -1,16 +1,16 @@
 @font-face {
     font-family: Pacifico;
-    src: url(/fonts/Pacifico-Regular.ttf);
+    src: url(../fonts/Pacifico-Regular.ttf);
 }
 
 @font-face {
     font-family: Theater;
-    src: url(/fonts/Theater-Atlas-Deco.ttf);
+    src: url(../fonts/Theater-Atlas-Deco.ttf);
 }
 
 @font-face {
     font-family: Natural;
-    src: url(/fonts/Natural-Mono-Regular.ttf);
+    src: url(../fonts/Natural-Mono-Regular.ttf);
 }
 
 .main {
