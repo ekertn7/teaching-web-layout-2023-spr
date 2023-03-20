@@ -1,0 +1,67 @@
+@font-face {
+	font-family: "Theater-Atlas-Deco";
+    src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.eot");
+	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.woff") format("woff");
+	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.ttf") format("truetype");
+	font-style: normal;
+}
+@font-face {
+    font-family: "MiamaNueva";
+    src: url("../fonts/MiamaNueva/MiamaNueva.eot");
+	src: url("../fonts/MiamaNueva/MiamaNueva.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/MiamaNueva/MiamaNueva.woff") format("woff");
+	src: url("../fonts/MiamaNueva/MiamaNueva.ttf") format("truetype");
+	font-style: normal;
+}
+*{
+    margin-left: 11em;
+}
+#front{
+    background-color:rgb(253, 241, 210);
+    height: 370px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.first-font{
+    margin-left: 2em ;
+    display: block;
+    font-family:'Theater-Atlas-Deco';
+}
+.body{
+    font-size: 16pt;
+    text-align: center;
+    margin-left: 20px ;
+    display: block;
+}
+.second-font{
+    margin-left: 10em ;
+    display: block;
+    font-size: 18pt;
+    color: crimson;
+    font-family: 'MiamaNueva';
+}
+#buttons{
+   margin-top: 20px;
+   display: block;
+}
+.button1{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(110, 188, 110);
+    color:aliceblue;
+    width: 60px;
+    font-size: 12pt;
+    margin-left: 11em;
+}
+.button2{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 0.5em;
+    background-color: rgb(212, 108, 108);
+    color:aliceblue;
+    font-size: 12pt;
+}
