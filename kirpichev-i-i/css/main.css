@@ -47,11 +47,10 @@ button.button-like {
     margin: 10px auto; 
     width: 500px;
     height: 50px;
-    /* background-color: #5ced73; */
     border: 6px solid #004225;
     border-radius: 15px 100px 15px 100px; 
     text-decoration: none;
-    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #013220, #a3f06c, #cdf93e);
+    background: linear-gradient(to right, #013220, #a3f06c, #cdf93e);
     background-size: 100& 3px, 0 3px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
@@ -62,20 +61,15 @@ button.button-like {
     justify-content: space-evenly; 
 }
 
-button.button-like:hover {
-    background-size: 0 3px, 100% 3px;
-}
-
 button.button-dislike {
     display: block;
     margin: 10px auto; 
     width: 500px;
     height: 50px;
-    /* background-color: #cd5c5c; */
     border: 6px solid #8b0000;
     border-radius: 100px 15px 100px 15px;
     text-decoration: none;
-    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #ecf96a, #ffa500, #ff0000);
+    background: linear-gradient(to right, #ecf96a, #ffa500, #ff0000);
     background-size: 100& 3px, 0 3px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
