@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: 'Santa Catarina';
+    src: url(fonts/Santa\ Catarina.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kindetosca';
+    src: url(fonts/Kindentosca.otf);
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'YandexLight';
+    src: url(fonts/YandexSansDisplay-Light.ttf);
+    font-style: normal;
+}
+
+
+.stih_flex_container {
+    display: flex;
+    width: 50vw;
+    height: 70vh;
+    flex-direction: column;
+    background-color: #ede0f8;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 7%;
+}
+
+h1 {
+    font-family: 'Santa Catarina';
+    text-align: center;
+    font-size: 50pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    font-family: 'Kindetosca';
+    font-size: 20pt;
+    text-align: right;
+    color: #741e09;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+p {
+    font-family: 'YandexLight';
+    text-align: left;
+    font-size: 16pt;
+    margin: 0;
+}
+
+.text {
+    margin-left: 50px;
+}
+
+.paragraph {
+    margin-top: 20px;
+}
+
+.flex_row_for_buttons {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+    width: 70px;
+    height: 60px;
+    border-radius: 25%;
+    border: none;
+    font-weight: bold;
+    
+}
+
+button:nth-child(1):hover {
+    cursor: pointer;
+    background-color: #3c582e;
+}
+
+button:nth-child(2):hover {
+    cursor: pointer;
+    background-color: #7c2825;
+}
+
+button:nth-child(1) {
+    background-color: #547943;
+}
+
+button:nth-child(2) {
+    background-color: #c53d38;
+}
