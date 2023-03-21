@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "Pacifico";
+	src: url("../fonts/Pacifico/Pacifico-Regular.eot");
+	src: url("../fonts/Pacifico/Pacifico-Regular.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/Pacifico/Pacifico-Regular.woff") format("woff");
+	src: url("../fonts/Pacifico/Pacifico-Regular.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ColagraphLegacy";
+	src: url("../fonts/ColagraphLegacy/ColagraphLegacy.eot");
+	src: url("../fonts/ColagraphLegacy/ColagraphLegacy.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/ColagraphLegacy/ColagraphLegacy.woff") format("woff");
+	src: url("../fonts/ColagraphLegacy/ColagraphLegacy.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "MarckScript";
+	src: url("../fonts/MarckScript/MarckScript-Regular.eot");
+	src: url("../fonts/MarckScript/MarckScript-Regular.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/MarckScript/MarckScript-Regular.woff") format("woff");
+	src: url("../fonts/MarckScript/MarckScript-Regular.ttf") format("truetype");
+	font-style: normal;
+}
+
+.content {
+    width: fit-content;
+    margin: 25vh auto;
+}
+
+.poem {
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    padding: 12pt 24pt;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.poem > * {
+    margin : 0;
+    margin-bottom: 8pt;
+}
+
+h1 {
+    font-family: "Pacifico";
+    font-weight: normal;
+}
+
+.poem pre {
+    font-family: "MarckScript";
+}
+
+.poem p {
+    font-family: "ColagraphLegacy";
+    font-size: 1.7em;
+    text-align: right;
+}
+
+.buttons {
+    padding: 16pt;
+    text-align: center;
+}
+
+.buttons > button {
+    border: 0;
+    margin: 0 25px;
+    padding: 6pt;
+    cursor: pointer;
+    color: white ;
+    border-radius: 15px;
+}
+
+.like {
+    background-color: rgb(0, 255, 0);
+}
+
+.dislike {
+    background-color: rgb(255, 0, 0);
+}
