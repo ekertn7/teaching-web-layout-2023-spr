@@ -14,15 +14,14 @@
 	src: url("../fonts/MiamaNueva/MiamaNueva.ttf") format("truetype");
 	font-style: normal;
 }
-*{
-    margin-left: 11em;
-}
 #front{
     background-color:rgb(253, 241, 210);
-    height: 370px;
+    height: auto;
     width: 450px;
     padding: 10px;
     border-radius: 10px;
+    display: block;
+    margin: 50px auto 10px;
 }
 .first-font{
     margin-left: 2em ;
@@ -32,19 +31,21 @@
 .body{
     font-size: 16pt;
     text-align: center;
-    margin-left: 20px ;
-    display: block;
+    margin-left: 70px;
+    display: flex;
 }
 .second-font{
-    margin-left: 10em ;
+    padding-right: 50px;
     display: block;
     font-size: 18pt;
     color: crimson;
     font-family: 'MiamaNueva';
+    text-align: right;
 }
-#buttons{
-   margin-top: 20px;
-   display: block;
+form{
+   display: flex;
+   margin: 20px auto auto 42em;
+   
 }
 .button1{
     padding: 10px;
@@ -54,7 +55,6 @@
     color:aliceblue;
     width: 60px;
     font-size: 12pt;
-    margin-left: 11em;
 }
 .button2{
     padding: 10px;
