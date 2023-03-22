@@ -43,8 +43,13 @@
     text-align: right;
 }
 form{
-   display: flex;
-   margin: 20px auto auto 42em;
+    display: flex;
+    width: auto;
+    height: 100px;
+    flex-direction: row;
+	align-items: center;
+    justify-content:center;
+    text-align: center;
    
 }
 .button1{
@@ -55,13 +60,14 @@ form{
     color:aliceblue;
     width: 60px;
     font-size: 12pt;
+
 }
 .button2{
     padding: 10px;
     border: none;
     border-radius: 15px;
-    margin-left: 0.5em;
     background-color: rgb(212, 108, 108);
     color:aliceblue;
     font-size: 12pt;
+    margin-left: 0.5em;
 }
