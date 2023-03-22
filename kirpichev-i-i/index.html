@@ -40,9 +40,14 @@
         </div>
         <div class="author">Александр Пушкин</div>
     </div>
-    <form>
-       <button class="button-like">Нравица</button>
-       <button class="button-dislike">Не нравица</button> 
-    </form>
+    <div class="buttons">
+        <button class="button-like" href="#" onclick="incrementClick()">Нравица</button>
+        <button class="button-dislike" href="#" onclick="incrementClickD()">Не нравица</button> 
+    </div>
+    <div class="counters">
+        <h3 class="like" id="counter-label-like">0</h3>
+        <h3 class="dislike" id="counter-label-dis">0</h3>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
