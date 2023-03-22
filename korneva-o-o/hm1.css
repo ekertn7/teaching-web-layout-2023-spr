@@ -23,7 +23,6 @@ h1.title
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 50px;
 	margin-top: -20px;
-	
 }
 
 h2.name
@@ -31,22 +30,18 @@ h2.name
 	font-family: "Cormorant";
 }
 
-form.poem
+.poem
 {
 	display: block;
 	border-radius: 20px;
-	position: absolute;
-	margin: auto;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+	position: relative;
 	width: 50%;
-	height: 50%;
+	height: auto;
 	padding: 50px;
 	background-color: rgb(211, 125, 55);
 	justify-content: center;
 	text-align: center;
+    margin: 70px auto 10px;
 }
 
 span
@@ -69,7 +64,7 @@ p.author
 	display: flex;
     justify-content: center;
     align-items: center;
-	margin: 53% 0 0 0;
+	margin: 5% 0 0 0;
 }
 
 button 
@@ -102,5 +97,4 @@ button
 .negative-button 
 {
 	background-color: rgb(221, 61, 50);
-    
 }
