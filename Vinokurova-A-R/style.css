@@ -1,0 +1,57 @@
+body{
+  font-family: 'Cormorant Infant', serif;
+}
+
+.ground{
+  display: block;
+  background-color: rgb(244, 205, 251);
+  width: 320px;
+  height: 420px;
+  margin: 100px auto 10px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.title{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.section1, .section2, .section3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.author{
+  text-align: right;
+  font-family: 'Comforter', cursive;
+  font-size: 30px;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+button{
+  font-size: 14px;
+  border: 0;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+}
+
+.like{
+  background-color: rgb(0, 255, 0);
+}
+
+.dislike{
+  background-color: rgba(244, 92, 92);
+}
