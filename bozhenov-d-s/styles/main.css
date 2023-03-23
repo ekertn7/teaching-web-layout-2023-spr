@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Atlas;
+    src: url(fonts/Theater-Atlas-Deco.ttf);
+}
+@font-face {
+    font-family: Srbija;
+    src: url(fonts/Srbija\ Sans.otf);
+}
+.main {
+    margin: 0 auto;
+    padding: 50px;
+    width: 450px;
+    border-radius: 5%;
+    background-color: rgb(245, 245, 220);
+}
+.rhyme-title{
+    text-align: center;
+    font-family: "Atlas";
+    font-size: 20pt;
+}
+.rhyme-text{
+    font-family: "Srbija";
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14pt;
+}
+.author {
+    text-align: right;
+    font-family: "Atlas";
+    font-style: italic;
+    font-size: 16pt;
+}
+
+button{
+    position: relative;
+    left: 52%;
+    margin-top: 5px;
+}
+.dislike {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.like{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 220, 33);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.like:hover {
+    background-color: rgb(13, 255, 0);
+}
+.dislike:hover {
+    background-color: rgb(255, 0, 1);
+}
