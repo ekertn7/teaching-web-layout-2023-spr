@@ -13,24 +13,21 @@ body{
 }
 
 .title{
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
-    font-size: 45px;
+    font-size: 25px;
 }
 
 .text{
-	font-family: 'Fasthand', cursive;
-	font-family: 'Lilita One', cursive;
-	font-family: 'Rajdhani', sans-serif;
-	font-family: 'Satisfy', cursive;
+	font-family: 'Bad Script', cursive;
 	margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .author{
     text-align: right;
-    font-family: 'Comforter', cursive;
-    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
 	margin-top: 20px;
 }
 
