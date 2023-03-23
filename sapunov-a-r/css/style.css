@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_div {
+    font-family: 'Yeseva One', cursive;
+    margin: 20px auto;
+    border-radius: 30px;
+    font-weight: normal;
+    font-size: 28px;
+    color: #444444;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(237, 228, 220);
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+.author {
+    text-align: right;
+    font-family: 'Arima Madurai', cursive;
+}
+
+button {
+    border-radius: 30px;
+    padding: 3px;
+    margin: 5px auto;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.like, .dislike {
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.like {
+    background-color: rgb(38, 217, 38);
+}
+
+.dislike {
+    background-color: red;
+}
