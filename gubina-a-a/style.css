@@ -2,34 +2,38 @@
 	font-family: "garamond_bold";
 	src: local("garamond_bold"), url("C:/Users/arina/OneDrive/Рабочий стол/Веб-верстка/teaching-web-layout-2023-spr/gubina-a-a/font/garamond_bold.ttf");
 }
+
 @font-face {
 	font-family: "rusbrush_script";
 	src: local("rusbrush_script"), url("C:/Users/arina/OneDrive/Рабочий стол/Веб-верстка/teaching-web-layout-2023-spr/gubina-a-a/font/rusbrush_script.otf");
 }
+
 @font-face{
 	font-family: "Comic Sans MS";
 	src: local("Comic Sans MS"), url(".../font/Comic Sans MS.ttf");
 }
+
 body{
 	max-height: 200px;
 	margin-right: 30em;
 	margin-left: 30em;
 	font-family:'Times New Roman';
 }
+
 .container{
-	position: absolute;
 	display: block;
 	height: 100em;
 	width: 30em;
 	text-align: center;
 }
+
 h1{
 	font-family: "garamond_bold";
-	 font-size: 2em;
+  font-size: 2em;
 }
 
 .style_poem{
-    font-size: 1.15em;
+  font-size: 1.15em;
 }
 
 h2{
@@ -55,17 +59,19 @@ h2{
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
   outline: none;
 }
+
 .btn-like {
   background: #00FF00;
   border: none;
   z-index: 1;
   cursor: pointer;
 }
+
 .btn-like:after {
   position: absolute;
   content: "";
@@ -76,17 +82,20 @@ h2{
   z-index: -1;
   background-color: #00FA9A;
   border-radius: 5px;
-   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
   transition: all 0.3s ease;
 }
+
 .btn-like:hover {
   color: #fff;
 }
+
 .btn-like:hover:after {
   width: 100%;
 }
+
 .custom-btn-d {
   margin-top: 3em;	
   width: 130px;
@@ -99,17 +108,19 @@ h2{
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
   outline: none;
 }
+
 .btn-dislike {
   background: #FF0000;
   border: none;
   z-index: 1;
   cursor: pointer;
 }
+
 .btn-dislike:after {
   position: absolute;
   content: "";
@@ -121,14 +132,16 @@ h2{
   border-radius: 5px;
   background-color: #8B0000;
   background-image: linear-gradient(#FF0000, #8B0000 0%, #B22222 74%);
-   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
   transition: all 0.3s ease;
 }
+
 .btn-dislike:hover {
   color: #000;
 }
+
 .btn-dislike:hover:after {
   height: 100%;
 }
