@@ -1,0 +1,59 @@
+
+body{
+    font-size: 12pt;
+    font-weight: normal;
+    /*font-family:"BIZUDMincho-Regular";*/
+}
+.poem{
+    display: block;
+    width: 50%;
+	margin: 0 auto;
+    border-radius: 10px;
+	padding: 20px;
+	position: relative;
+    background-color: beige;
+    text-align: center;
+}
+h1{
+   font-family: 'Caveat', cursive;
+    font-size: 18pt;
+}
+button {
+  margin-top: 3em;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  outline-color: chartreuse;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+     font-family: 'Comfortaa', cursive;
+}
+.button_like{
+    background-color:#98FB98;
+}
+.button_dislike{
+    background-color: #FA8072;
+}
+.wrapper{
+    width: 50%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.button_like:hover{
+    background-color:#00FF7F;
+}
+.button_dislike:hover{
+    background-color: #e11d48;
+}
+h2{
+    font-family: 'Caveat', cursive;
+    font-size: 14pt;
+    font-weight: normal;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+}
