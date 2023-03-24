@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Old+Standard+TT&family=Rancho&display=swap');
+
+.wrapper, .buttons
+{
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+.wrapper{
+
+    box-sizing: border-box;
+    background-color: #f5f5dc;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1
+{
+    font-family: 'Limelight', cursive;
+    font-size: 24px;
+}
+
+.text
+{
+    font-size: 18px;
+}
+
+.author
+{
+    padding-left: 200px;
+    color: #6b0203;
+    font-size: 22px;
+    font-family: 'Caveat', cursive;
+}
+
+
+button
+{
+    border-radius: 20px;
+    color: white;
+    border: 0px;
+    padding: 10px 20px;
+}
+
+.like
+{
+    background-color: #00c81a;
+    margin-right: 5px;
+}
+
+.dislike
+{
+    background-color: #f06a3a;
+    margin-left: 5px;
+}
