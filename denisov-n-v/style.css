@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.poem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background-color:#ffe4c4;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.poem h1 {
+    font-size: 18px;
+}
+
+.poem h2 {
+    font-size: 25px;
+    margin: 0px auto 10px;
+}
+
+.poem h1,
+.poem h2 {
+    font-family: 'Alkatra', cursive;
+}
+
+.poem .text {
+    font-size: 16px;
+    font-family: 'Fasthand', cursive;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.like {
+    background-color: #daa520;
+}
+
+.like:hover {
+    background-color: #008000;
+}
+
+.no-like {
+    background-color: #ff4500;
+}
+
+.no-like:hover {
+    background-color: #f00;
+}
+
+.like,
+.no-like {
+    cursor: pointer;
+    font-size: 15px;
+    height: 30px;
+    width: 110px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
