@@ -19,7 +19,7 @@ h2{
 
 .poem{
     width: 520px;
-    height: 470px;
+    height: auto;
     background-color:rgb(255, 184, 92);
     margin-left: auto;
     margin-right: auto;
