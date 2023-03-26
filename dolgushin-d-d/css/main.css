@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family:BIZUDPMincho ;
+  src: url("../fonts/BIZUDPMincho-Regular.ttf");
+}
+
+.ground{
+    display: block;
+    background-color: #F99600;
+    width: 450px;
+    height: 400px;
+    margin: 100px auto 10px;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.title{
+	font-family: BIZUDPMincho, serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+.text{
+    font-size: 21px;
+	font-family:BIZUDPMincho;
+}
+
+p {
+    text-align: center;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.author{
+    text-align: right;
+	font-family: BIZUDPMincho;
+    font-size: 35px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+button{
+    font-size: 15px;
+    border: 0;
+    border-radius: 0px;
+    width: 100px;
+    height: 30px;
+}
+
+.like{
+    background-color: #B36C8D;
+}
+
+.dislike{
+    background-color: #7747AD;
+}
