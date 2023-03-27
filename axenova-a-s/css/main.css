@@ -50,6 +50,7 @@ body {
     background-color: rgb(250, 242, 167);
     margin: auto;
     border-radius: 30px;
+	overflow:scroll;
 }
 
 .title {
