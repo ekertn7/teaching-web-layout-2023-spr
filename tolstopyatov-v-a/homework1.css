@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Petit+Formal+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+h1{
+	font-family: "PT Sans";
+	font-style: italic;
+	font-size: 30pt;
+}
+
+.poem{
+	font-size:14pt;
+	word-spacing:2px;
+}
+
+h2{
+	font-family: "PT Sans";
+	color:#DC143C;
+	font-size:18pt;
+	text-align:right;
+	margin-right:55px;
+}
+
+.fon{
+	margin: 25vh auto;
+	text-align:center;
+	width:600px;
+	height:540px;
+	background:#f5f5dc;
+	border-radius:30px;
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 16px;
+	margin:5pt;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.indent {
+	margin-top: 70px;
+}
+
+.like {
+	background-color: green;
+}
+.dislike {
+	background-color: red;
+}
+
+pre{
+	font-family: 'Fasthand', cursive;
+}
+	
