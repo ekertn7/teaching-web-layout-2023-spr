@@ -60,3 +60,14 @@ button {
 .dislike {
     background-color: red;
 }
+
+.like:hover 
+{
+    transform: scale(1.5);
+    background-color: rgb(38, 217, 178);
+}
+.dislike:hover 
+{
+    transform: scale(1.5);
+    background-color: rgb(255,65,65);
+}
