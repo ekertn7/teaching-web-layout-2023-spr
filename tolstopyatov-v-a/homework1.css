@@ -4,7 +4,7 @@
 
 h1{
 	font-family: "PT Sans";
-    font-style: italic;
+	font-style: italic;
 	font-size: 30pt;
 }
 
@@ -24,35 +24,35 @@ h2{
 .fon{
 	margin: 25vh auto;
 	text-align:center;
-    width:600px;
-    height:540px;
-    background:#f5f5dc;
+	width:600px;
+	height:540px;
+	background:#f5f5dc;
 	border-radius:30px;
 }
 
 .button {
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 16px;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 16px;
 	margin:5pt;
-    cursor: pointer;
+	cursor: pointer;
 	border-radius: 20px;
 }
 
 .indent {
-    margin-top: 70px;
+	margin-top: 70px;
 }
 
 .like {
-    background-color: green;
+	background-color: green;
 }
 .dislike {
-    background-color: red;
+	background-color: red;
 }
 
 pre{
-		font-family: 'Fasthand', cursive;
+	font-family: 'Fasthand', cursive;
 }
 	
