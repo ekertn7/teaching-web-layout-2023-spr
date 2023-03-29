@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foreground{
+    display: block;
+    background-color: rgba(10, 150, 255, .35);
+    width: 300px;
+    height: 550px;
+    margin: 100px auto 10px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.title{
+    font-family: 'Rubik Marker Hatch', cursive;
+    text-align: center;
+    font-size: 45px;
+}
+
+.text{
+    font-size: 21px;
+}
+
+.paragraph_1, .paragraph_2, .paragraph_3, .paragraph_4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.author{
+    text-align: right;
+    font-family: 'Comforter', cursive;
+    font-size: 35px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+button{
+    font-size: 15px;
+    border: 0;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.like{
+    background-color: rgb(0, 255, 0);  
+}
+
+.dislike{
+    background-color: rgba(244, 92, 92, 0.985);
+}
