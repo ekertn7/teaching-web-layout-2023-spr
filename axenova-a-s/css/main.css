@@ -1,0 +1,107 @@
+@font-face {
+	font-family: "Theater-Atlas-Deco";
+	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.eot");
+	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.woff") format("woff");
+	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gogol";
+	src: url("../fonts/Gogol/Gogol-Regular.eot");
+	src: url("../fonts/Gogol/Gogol-Regular.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/Gogol/Gogol-Regular.woff") format("woff");
+	src: url("../fonts/Gogol/Gogol-Regular.ttf") format("truetype");
+	font-style: normal;
+}
+
+* {
+	transition-duration: .2s;
+	outline: 0;
+	cursor: default;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+    margin-top: 100px;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+
+body {
+	background-color: transparent;
+	font-family: "Inter";
+	font-weight: normal;
+	font-size: 18px;
+	color: #444444;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+.background {
+    display: block;
+    width: 40vw;
+    height: 70vh;
+    background-color: rgb(250, 242, 167);
+    margin: auto;
+    border-radius: 30px;
+	overflow:scroll;
+}
+
+.title {
+	font-family: "Theater-Atlas-Deco";
+    padding-top: 30px;
+    text-align: center;
+}
+
+pre {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+    white-space: pre-line;
+}
+
+.author {
+    font-family: "Gogol";
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 30px;
+}
+
+.rating{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.like {
+    display: block;
+	margin: 20px;
+	border: none;
+    color: white;
+	background-color: rgb(95, 250, 160);
+	font-size: 22px;
+	border-radius: 25px;
+	padding: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.unlike {
+    display: block;
+	margin: 20px;
+	border: none;
+    color: white;
+	background-color: rgb(247, 94, 94);
+	font-size: 22px;
+	border-radius: 25px;
+	padding: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
