@@ -6,7 +6,7 @@ body{
   display: block;
   background-color: rgb(244, 205, 251);
   width: 320px;
-  height: 420px;
+  height: 460px;
   margin: 100px auto 10px;
   border-radius: 25px;
   padding: 10px;
@@ -22,7 +22,7 @@ body{
   font-size: 20px;
 }
 
-.section1, .section2, .section3 {
+.section1{
   margin-top: 10px;
   margin-bottom: 10px;
 }
