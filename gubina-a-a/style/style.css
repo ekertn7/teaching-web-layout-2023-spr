@@ -14,7 +14,6 @@
 }
 
 body{
-	max-height: 200px;
 	margin-right: 30em;
 	margin-left: 30em;
 	font-family:'Times New Roman';
@@ -22,7 +21,6 @@ body{
 
 .container{
 	display: block;
-	height: 100em;
 	width: 30em;
 	text-align: center;
 }
