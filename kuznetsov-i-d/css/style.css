@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Unbounded";
+  src: url(../fonts/Unbounded-Bold.ttf);
+}
+@font-face {
+  font-family: Oranienbaum;
+  src: url(../fonts/Oranienbaum-Regular.ttf);
+}
+@font-face {
+  font-family: GreatVibes;
+  src: url(../fonts/GreatVibes-Regular.ttf);
+}
+.container {
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name {
+  font-size: 3em;
+  font-family: Unbounded;
+}
+.verse {
+  font-family: Oranienbaum;
+  font-size: 1.1em;
+}
+
+.box {
+  text-align: center;
+  padding: 20px 80px;
+  background-color: rgb(245, 244, 193);
+  border-radius: 20px;
+  margin: 0 0 30px 0;
+}
+
+.author {
+  font-family: GreatVibes;
+  text-align: right;
+  font-size: 1.5em;
+}
+.buttons {
+  text-align: center;
+  font-family: Unbounded;
+  text-align: center;
+}
+.button1 {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(30, 181, 45);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 0 10px 0 0;
+  transition: all 500ms ease;
+}
+.button1:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(30, 181, 45);
+}
+.button2 {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(233, 133, 45);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: all 500ms ease;
+}
+.button2:hover {
+  color: rgb(233, 133, 45);
+  background-color: rgb(255, 255, 255);
+}
