@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница со стихотворением</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+		    body {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+
+    .poem-container {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    .author {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+
+    button {
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+        margin: 0 0.5rem;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+    <div class="poem-container">
+        <h1>Зимнее утро</h1>
+        <p>
+            Мороз и солнце; день чудесный!<br>
+            Еще ты дремлешь, друг прелестный —<br>
+            Пора, красавица, проснись:<br>
+            Открой сомкнуты негой взоры<br>
+            Навстречу северной Авроры,<br>
+            Звездою севера явись!
+        </p>
+        <p class="author">Александр Сергеевич Пушкин</p>
+        <button>Поставить дизлайк</button>
+        <button>Поставить лайк</button>
+    </div>
+</body>
+</html>
