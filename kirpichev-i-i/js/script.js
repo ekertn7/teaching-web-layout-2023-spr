@@ -1,18 +1,13 @@
-let likeCounter = 0;
-let disCounter = 0;
+const labelLike = document.getElementById("counterLabelLike")
+const labelDislike = document.getElementById("counterLabelDislike")
 
-function incrementClick() {
-    updateDisplay(++likeCounter);
+let likeCounter = likeLabel.textContent;
+let dislikeCounter = dislikeLabel.textContent;
+
+function updateStateLike() {
+    labelLike.innerHTML = ++likeCounter;
 }
 
-function incrementClickD() {
-    updateDisplay(++disCounter);
-}
-
-function updateDisplayD(disCounter) {
-    document.getElementById("counter-label-dis").innerHTML = disCounter;
-}
-
-function updateDisplay(likeCounter) {
-    document.getElementById("counter-label-like").innerHTML = likeCounter;
+function updateStateDislike() {
+    labelDislike.innerHTML = ++dislikeCounter;
 }

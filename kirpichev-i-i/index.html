@@ -41,12 +41,12 @@
         <div class="author">Александр Пушкин</div>
     </div>
     <div class="buttons">
-        <button class="button-like" href="#" onclick="incrementClick()">Нравица</button>
-        <button class="button-dislike" href="#" onclick="incrementClickD()">Не нравица</button> 
+        <button class="button-like" onclick="updateStateLike()">Нравица</button>
+        <button class="button-dislike" onclick="updateStateDislike()">Не нравица</button>  
     </div>
     <div class="counters">
-        <h3 class="like" id="counter-label-like">0</h3>
-        <h3 class="dislike" id="counter-label-dis">0</h3>
+        <h3 class="like" id="counterLabelLike">0</h3>
+        <h3 class="dislike" id="counterLabelDislike">0</h3>
     </div>
     <script src="js/script.js"></script>
 </body>
