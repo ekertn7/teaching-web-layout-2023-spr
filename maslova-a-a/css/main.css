@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+.poem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.poem-block {
+  background-color: beige;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.poem-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.poem-text {
+  font-family: 'Edu NSW ACT Foundation', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.poem-author {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: right;
+}
+
+.poem-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.like-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.dislike-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
