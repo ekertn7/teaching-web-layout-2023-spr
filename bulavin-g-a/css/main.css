@@ -14,8 +14,9 @@
     margin-top: 100px;
     width: auto;
     height: auto;
-    background-color:antiquewhite;
+    background-color:rgb(250, 235, 215);
     border-radius: 10pt;
+    justify-content: center;
 }
 
 .verse .name{
@@ -36,15 +37,14 @@
 
 .buttons{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
+    align-content: center;
 }
 
 .like, .dislike{
     width: 70px;
     height: auto;
-    margin-left: 50px;
-    margin-right: 50px;
     margin-top:10px;
     margin-bottom: 20px;
     cursor: pointer;
@@ -52,7 +52,7 @@
 }
 
 .like{
-    background-color:lawngreen;
+    background-color:rgb(124, 252, 0);
 }
 
 .dislike{
