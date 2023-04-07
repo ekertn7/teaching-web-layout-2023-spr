@@ -1,3 +1,19 @@
+@font-face {
+	font-family: 'Toscania';
+	src: url('./fonts/toscania.woff2') format('woff2'), 
+		url('./fonts/toscania.woff') format('woff'), 
+		url('./fonts/toscania.ttf') format('truetype'), 
+		url('./fonts/toscania.svg#toscania') format('svg');
+}
+
+@font-face {
+	font-family: 'Bodoni initials';
+	src: url('./fonts/bodoni_initials.woff2') format('woff2'), 
+		url('./fonts/bodoni_initials.woff') format('woff'), 
+		url('./fonts/bodoni_initials.ttf') format('truetype'), 
+		url('./fonts/bodoni_initials.svg#bodoni initials') format('svg');
+}
+
 .main {
 	background: #cc9;
 	border-radius: 30px;
@@ -31,21 +47,11 @@ h1
 	font-weight: 100;
 	font-style: italic;
 }
-@font-face {
-	font-family: 'Toscania';
-	src: 
-		url('./fonts/toscania.woff2') format('woff2'), 
-		url('./fonts/toscania.woff') format('woff'), 
-		url('./fonts/toscania.ttf') format('truetype'), 
-		url('./fonts/toscania.svg#toscania') format('svg');
-}
-@font-face {
-	font-family: 'Bodoni initials';
-	src: 
-		url('./fonts/bodoni_initials.woff2') format('woff2'), 
-		url('./fonts/bodoni_initials.woff') format('woff'), 
-		url('./fonts/bodoni_initials.ttf') format('truetype'), 
-		url('./fonts/bodoni_initials.svg#bodoni initials') format('svg');
+
+.buttons {
+	width: 50%;
+	margin: 40px auto;
+	text-align: center;
 }
 button
 {
@@ -60,26 +66,20 @@ button:active
 {
 	transform: scale(1.1);   
 }
+button.like {
+	background-color: #3f6;
+}
 button.like:hover
 {
 	background-color: #9f9;
 	cursor: pointer;
 }
-button.like
-{
-	background-color: #3f6;
+button.dislike {
+	background-color: #f30;
 }
 button.dislike:hover
 {
 	background-color: #f66;
 	cursor: pointer;
 }
-button.dislike
-{
-	background-color: #f30;
-}
-.buttons {
-	width: 50%;
-	margin: 40px auto;
-	text-align: center;
-}
+
