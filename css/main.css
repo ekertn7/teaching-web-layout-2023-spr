@@ -1,12 +1,3 @@
-@font-face {
-	font-family: "Theater-Atlas-Deco";
-	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.eot");
-	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.eot?#iefix") format("embedded-opentype");
-	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.woff") format("woff");
-	src: url("../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.ttf") format("truetype");
-	font-style: normal;
-}
-
 * {
 	outline: 0; /* убираем рамку для некоторых элементов */
 	cursor: default; /* выбор типа курсора */
@@ -21,7 +12,6 @@ body {
 	font-weight: normal; /* начертание шрифта */
 	font-size: 18px; /* размер шрифта */
 	color: #444444; /* цвет шрифта */
-	padding-top: 69px; /* внутренний отступ сверху */
 }
 
 a, a:hover, a:active, a:visited {
@@ -29,18 +19,33 @@ a, a:hover, a:active, a:visited {
 	cursor: pointer; /* выбор типа курсора */
 }
 
-h1 {
-	color: rgb(138, 70, 70);
-	margin-bottom: 20px;
-	text-align: center;
+.content {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	flex-direction: column; /* направление блоков: row column row-reverse column-reverse */
+	flex-wrap: nowrap; /* перенос блоков: wrap nowrap */
+	flex-flow: row wrap; /* объединение flex-direction и flex-wrap */
+	justify-content: space-around; /* выравнивание относительно main (Х) оси: flex-start flex-end center space-between space-evenly space-around */
+	align-items: center; /* выравнивание относительно cross (Y) оси: flex-start flex-end center */
+	color: red;
+	gap: 5px; /* отступ */
 }
 
-h1:first-child {
-	font-family: "Theater-Atlas-Deco";
-	color: #36d21a;
+.blocks {
+	display: block;
+	width: 80px;
+	height: 80px;
+	background-color: cornflowerblue;
+	border: 3px solid #444444;
+	border-radius: 10px;
+	padding: 10px;
 }
 
-h1:nth-child(2) {
-	font-family: "Pacifico";
-	color: rgb(138, 43, 226);
+.blocks:nth-child(2) {
+	color: black;
+}
+
+.blocks:nth-child(4) {
+	align-self: flex-end; /* отличающееся значение align-items для дочернего элемента: auto flex-start flex-end center */
 }
