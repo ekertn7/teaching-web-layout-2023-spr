@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'Nexa Script';
+	src: url("../fonts/NexaScript/NexaScript-Regular.eot");
+	src: url("../fonts/NexaScript/NexaScript-Regular.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/NexaScript/NexaScript-Regular.woff") format("woff");
+	src: url("../fonts/NexaScript/NexaScript-Regular.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Code Pro';
+	src: url("../fonts/CodePro/Code-Pro-Regular.eot");
+	src: url("../fonts/CodePro/Code-Pro-Regular.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/CodePro/Code-Pro-Regular.woff") format("woff");
+	src: url("../fonts/CodePro/Code-Pro-Regular.ttf") format("truetype");
+	font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.content {
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.poem {
+  font-family: 'Code Pro';
+  background-color: rgb(236, 215, 255);
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.poem div {
+  font-size: 20px;
+  margin: 20px 100px;
+}
+
+.author {
+  font-family: 'Nexa Script';
+  font-size: 30px;
+  text-align: right;
+}
+
+.buttons {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.buttons button {
+  font-family: 'Code Pro';
+  font-size: 18px;
+
+  border: none;
+  border-radius: 36px;
+
+  padding: 18px;
+  margin: 0 6px;
+
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.like {
+  background-color: rgb(127, 255, 127);
+}
+
+.like:hover {
+  background-color: rgb(78, 252, 78);
+}
+
+.dislike {
+  background-color: rgb(255, 116, 116);
+}
+
+.dislike:hover {
+  background-color: rgb(255, 79, 79);
+}

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Nexa;
+    src: url(nexa-script.ttf);
+}
+
+@font-face {
+    font-family: Nexa-Semi-Bold;
+    src: url(nexa-script-semi-bold.ttf);
+}
+
+.main {
+    width: 500px;
+    background-color: #f2faf9;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Nexa-Semi-Bold, Arial, sans-serif;
+    font-size: 34px;
+}
+
+.content {
+    font-family: Nexa, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.author {
+    font-family: Nexa-Semi-Bold, Arial, sans-serif;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.button {
+    text-align: center;
+    font-family: Nexa, Arial, sans-serif;
+    font-size: 22px;
+    margin: auto;
+    color: white;
+    border: solid;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button-like {
+    background-color: #5dcf7b;
+    border-color: #32a14f;
+}
+
+.button-like:hover {
+    cursor: pointer;
+    background-color: #1abf45;
+}
+
+.button-dislike {
+    background-color: #f97a7a;
+    border-color: #cb4949;
+}
+
+.button-dislike:hover {
+    cursor: pointer;
+    background-color: #fd5d5d;
+}

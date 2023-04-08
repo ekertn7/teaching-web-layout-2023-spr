@@ -1,0 +1,87 @@
+@font-face
+{
+	font-family: "Yahfie"; 
+	src: url("fonts/Yahfie/Yahfie.eot");
+	src: url("fonts/Yahfie/Yahfie.eot?#iefix") format("embedded-opentype");
+	src: url("fonts/Yahfie/Yahfie.ttf") format("truetype");
+	src: url("fonts/Yahfie/Yahfie.woff") format("woff");
+}
+
+@font-face
+{
+	font-family: "SweetMavka"; 
+	src: url("fonts/SweetMavka/SweetMavka.eot");
+	src: url("fonts/SweetMavka/SweetMavka.eot?#iefix") format("embedded-opentype");
+	src: url("fonts/SweetMavka/SweetMavka.ttf") format("truetype");
+	src: url("fonts/SweetMavka/SweetMavka.woff") format("woff");
+}
+
+body
+{
+	background: #d3d3d3;
+}
+
+.page 
+{
+	background : #FFEFD5;
+	width : 18cm;
+	height : 20cm;
+	margin: auto;
+}
+
+.name-poem
+{
+  text-align: center; 
+  padding: 3cm 3cm 0cm 3cm;
+}
+
+.text-poem
+{
+   padding: 0cm 3cm 0cm 5.5cm; 
+}
+
+.name-author
+{
+  text-align: right; 
+  font-style:italic;
+  margin-right: 2cm; 
+  font-size : 18pt;
+}
+
+.first-font
+{
+   font-family: 'SweetMavka';	
+   font-size : 25pt;
+}
+
+.second-font
+{
+	font-family: 'Yahfie';	
+	font-size : 20pt;
+}
+
+
+.buttons
+{
+    margin-top: 1cm;
+	text-align: center;
+}
+
+.button
+{
+    border: none;
+    color: #ffffff;
+    font-size: 30pt;
+    cursor: pointer;
+	border-radius: 10px;
+}
+
+.button1
+{
+    background-color: #00FF00;
+}
+
+.button2
+{
+    background-color: #f44336;
+}

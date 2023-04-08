@@ -1,0 +1,58 @@
+body{
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.ground{
+    display: block;
+    background-color: rgba(110, 26, 16, .70);
+    width: 350px;
+    height: 600px;
+    margin: 100px auto 10px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.title{
+    font-family: 'Rubik Iso', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+.text{
+    font-size: 24px;
+}
+
+.paragraph1, .paragraph2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.author{
+    margin-top: 65px;
+	text-align: right;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+button{
+    font-size: 15px;
+    border: 0;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.like{
+    background-color: rgb(36, 138, 8);  
+}
+
+.dislike{
+    background-color: rgb(191, 29, 8);
+}
