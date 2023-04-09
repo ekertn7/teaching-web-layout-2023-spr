@@ -53,7 +53,8 @@ span
 
 p.author
 {
-	margin-left: 75%;
+	width: 100%;
+	text-align: right;
 	font-family:"Caveat";
 	font-size:25px;
 }
