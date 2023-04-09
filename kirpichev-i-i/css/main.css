@@ -1,0 +1,94 @@
+body{
+    background-color: #00000a;
+}
+
+div.foreground {
+    background-color: rgb(235, 213, 179);
+    display: block;
+    width: 1000px;
+    height: 750px;
+    margin: 30px auto;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+div.author {
+    font-size: 40px;
+    font-family: 'Comforter Brush', cursive;
+	text-align:right;
+    font-weight: 600;
+    color: rgb(150, 0, 24);
+}
+
+div.name {
+    font-size: 150%;
+	font-family: 'Ruslan Display', cursive;
+	text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: normal; 
+}
+
+div.text {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.35;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+div.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+button {
+    width: 500px;
+    height: 50px;
+    font-size:22px;
+    border-radius: 25px;
+    cursor:pointer;
+    background-size: 100% 3px, 0 3px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+button.button-like {
+    border: 3px solid #004225; 
+    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #013220, #a3f06c, #cdf93e);
+    background-size: 100% 50px, 0 50px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 1000ms;
+    color: #00000a;
+}
+
+button.button-dislike {
+    border: 3px solid #8b0000;
+    background: linear-gradient(to left, transparent, transparent), linear-gradient(to right, #ecf96a, #ffa500, #ff0000);
+    background-size: 100% 50px, 0 50px;
+    background-position: 0 100%, 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 1000ms;
+    color: #00000a;
+}
+
+button:hover {
+    background-size: 0 50px, 100% 50px;
+}
+
+div.counters {
+    display: flex;
+    flex-direction: row;
+    column-gap: 525px;
+    justify-content: center;
+}
+
+h3 {
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+}
