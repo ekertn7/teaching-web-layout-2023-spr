@@ -23,9 +23,6 @@ body{
     color: #bb9785;
     font-family: 'Cormorant Unicase', serif;
 }
-.text{
-    transform: translate(-8%, 0%);
-}
 .copy{
     margin-left:220px;
     font-family: 'Charis SIL', serif;
