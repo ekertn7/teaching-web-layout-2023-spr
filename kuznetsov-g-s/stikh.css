@@ -1,0 +1,93 @@
+@font-face{
+    font-family: Severina;
+    font-style: normal;
+    src:url(fonts/Severina.ttf) format("truetype"),
+        url(fonts/Severina.eot) format("eot"),
+        url(fonts/Severina.eot?#iefix) format("embedded-opentype"),
+        url(fonts/Severina.woff) format("woff"),
+        url(fonts/Severina.woff2) format("woff2");
+}
+
+@font-face{
+    font-family: Snowstorm;
+    font-style: normal;
+    src:url(fonts/Snowstorm.ttf) format("truetype"),
+        url(fonts/Snowstorm.eot) format("eot"),
+        url(fonts/Snowstorm.eot?#iefix) format("embedded-opentype"),
+        url(fonts/Snowstorm.woff) format("woff"),
+        url(fonts/Snowstorm.woff2) format("woff2");
+}
+
+body{
+    background-color: #29070b;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.CenteredBlock{
+    display: block;
+    width: 350px;
+    height: 780px;
+    margin: auto;
+    background-color: #4f1315;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h{
+    text-align: right;
+    font-size: 28px;
+    font-family: Severina, sans-serif;
+}
+
+.Text{
+    margin: 0 auto;
+    text-align: center;
+    color: #e0cfb1;
+    font-family: Snowstorm, sans-serif;
+}
+
+.Author{
+    text-align: right;
+    font-size: 25;
+}
+
+span{
+    font-style: italic;
+}
+
+form{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+button{
+    font-size: 20px;
+    border: 1px solid #e0cfb1;
+    border-radius: 10px;
+    width: 190px;
+    height: 35px;
+    color: #e0cfb1;
+    font-family: Severina, sans-serif;
+}
+
+.Like{
+    background-color: #691a1d;
+}
+
+.Like:hover{
+    background-color: #e0cfb1;
+    color:#691a1d;
+}
+
+.Dislike{
+    background-color: #370d0f;
+}
+
+.Dislike:hover{
+    background-color: #e0cfb1;
+    color:#370d0f;
+}
