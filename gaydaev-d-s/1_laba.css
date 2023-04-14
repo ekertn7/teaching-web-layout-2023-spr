@@ -1,0 +1,52 @@
+@font-face {
+	font-family: lobster; 
+    src: url(Caveat-VariableFont_wght.ttf); 
+}
+
+@font-face {
+	font-family: Marck; 
+    src: url(ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf); 
+}
+   
+h1{
+    font-family: lobster;
+}
+div {
+    background: #b1afaf; 
+    color: #000000; 
+    padding: 10px; 
+    border-radius: 40px; 
+	margin-right: 35%; 
+    margin-left: 35%; 
+	margin-top: 15%;
+	text-align: center;
+   }
+.author {
+	 font-size: 30px;
+	 color: #b6001b; 
+	 margin-right: 2%; 
+	 text-align: right;
+	 font-family: Marck;
+   }
+	   
+form{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+
+button{
+	border: none;
+	font-size: 10px;
+	color: aliceblue;
+	font-weight: bold;
+	border-radius: 30px;
+	padding: 10px;
+}
+.like{
+	background-color: rgb(88, 170, 5);
+}
+.dislike{
+	background-color: rgb(145, 68, 0);
+}
