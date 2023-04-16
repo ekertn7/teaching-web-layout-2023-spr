@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+h1, .poem-author {
+    font-family: "Fasthand";
+    font-style: italic;
+}
+
+p {
+    font-family: "Open Sans";
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff8dc; 
+}
+
+.poem-author {
+    text-align: right;
+}
+
+.rating-btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rating-btns button {
+    margin 0 10px;
+    padding 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.2s ease;
+}
+
+.like-btn {
+    background-color: #0f0;
+}
+
+.unlike-btn {
+    background-color: #f00;
+}
+
+.rating-btns button:hover {
+    background-color: #ff0;
+}
