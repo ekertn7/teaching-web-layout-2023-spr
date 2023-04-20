@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: max-content;
+    max-height: max-content;
+    margin: auto;
+}
+
+.poem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe4c4;
+    border-radius: 20px;
+    min-width: 400px;
+    min-height: 400px;
+    margin: 30px auto;
+}
+
+.poem h1,
+.poem h2 {
+    font-family: 'Alkatra', cursive;
+}
+
+.poem h1 {
+    font-size: 18px;
+}
+
+.poem h2 {
+    font-size: 25px;
+}
+
+.poem .text {
+    font-family: 'Fasthand', cursive;
+    font-size: 16px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin: 30px auto 0px;
+}
+
+.buttons .like,
+.buttons .dislike {
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+.buttons .like {
+    background-color: #008000;
+}
+
+.buttons .like:hover {
+    background-color: #063;
+}
+
+.buttons .dislike {
+    background-color: #c00
+}
+
+.buttons .dislike:hover {
+    background-color: #f60;
+}
