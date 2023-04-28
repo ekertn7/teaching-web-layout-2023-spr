@@ -4,7 +4,7 @@
 	border-radius: 0; /* закругление краев */
 	margin: 0; /* внешний отступ */
 	padding: 0; /* внутренний отступ */
-	font-family: Arial, Helvetica, sans-serif; /* семейство шрифтов */
+	/* font-family: Arial, Helvetica, sans-serif; семейство шрифтов */
 }
 
 body {
@@ -19,33 +19,94 @@ a, a:hover, a:active, a:visited {
 	cursor: pointer; /* выбор типа курсора */
 }
 
-.content {
+.menu {
 	display: flex;
-	width: 100vw;
-	height: 100vh;
-	flex-direction: column; /* направление блоков: row column row-reverse column-reverse */
-	flex-wrap: nowrap; /* перенос блоков: wrap nowrap */
-	flex-flow: row wrap; /* объединение flex-direction и flex-wrap */
-	justify-content: space-around; /* выравнивание относительно main (Х) оси: flex-start flex-end center space-between space-evenly space-around */
-	align-items: center; /* выравнивание относительно cross (Y) оси: flex-start flex-end center */
-	color: red;
-	gap: 5px; /* отступ */
-}
-
-.blocks {
-	display: block;
-	width: 80px;
-	height: 80px;
-	background-color: cornflowerblue;
-	border: 3px solid #444444;
-	border-radius: 10px;
+	flex-flow: row nowrap;
+	justify-content: center;
+	gap: 20px;
+	width: 100%;
 	padding: 10px;
+	background-color: #444444;
 }
 
-.blocks:nth-child(2) {
-	color: black;
+.href {
+	padding: 8px 12px;
+	border-radius: 10px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.blocks:nth-child(4) {
-	align-self: flex-end; /* отличающееся значение align-items для дочернего элемента: auto flex-start flex-end center */
+.menu__href {
+	display: flex;
+	background-color: aliceblue;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.menu__href:hover {
+	background-color: cornsilk;
+}
+
+.menu__href_selected {
+	background-color: aquamarine;
+}
+
+.menu__href_selected:hover {
+	background-color: #6dedc2;
+}
+
+/* BLOCKS */
+
+.header-main {
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-mini {
+	font-size: 14px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.background {
+	display: block;
+	width: 100%;
+	background-color: aliceblue;
+}
+
+.content {
+	display: block;
+	width: 80vw;
+	padding: 20px 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ELEMENTS */
+
+.content__header-mini {
+	text-align: center;
+}
+
+.content__header-main {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.content__custom-margin {
+	height: 100px;
+	margin: 30px auto;
+	width: 50vw;
+	background-color: bisque;
+	border-radius: 10px;
+}
+
+.content__href {
+	display: block;
+	width: 200px;
+	background-color: coral;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content__href:hover {
+	background-color: chocolate;
 }
