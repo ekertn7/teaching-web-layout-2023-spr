@@ -10,10 +10,14 @@
   font-family: Comforter;
   src: url(font/ComforterBrush-Regular.ttf) format("truetype");
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .poem {
     width: 500px;
-    height: 430px;
-    position: absolute;
+    align-items: center;
     top: 0;
     right: 0;
     bottom: 0;
@@ -39,7 +43,6 @@ h1 {
 .button{
     width: 150px;
     height: 50px;
-    position: absolute;
     top: 500;
     right: 0;
     bottom: 0;
