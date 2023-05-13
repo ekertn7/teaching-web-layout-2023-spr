@@ -4,7 +4,7 @@
 	border-radius: 0; /* закругление краев */
 	margin: 0; /* внешний отступ */
 	padding: 0; /* внутренний отступ */
-	font-family: Arial, Helvetica, sans-serif; семейство шрифтов
+	font-family: Arial, Helvetica, sans-serif; /* семейство шрифтов */
 }
 
 body {
@@ -149,3 +149,87 @@ a, a:hover, a:active, a:visited {
 	background-color: rgb(0, 179, 90);
 	color: #ebfff2;
 }
+
+@media (max-width: 1200px) {
+	.container {
+		width: 932px;
+	}
+	.product-card {
+		width: calc(33.33% - (30px / 3 * 2));
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		width: 707px;
+	}
+	.product-card {
+		width: calc(50% - (30px / 2));
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		width: 100%;
+	}
+	.product {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+	}
+	.product-card {
+		width: calc(100% - 60px);
+		pointer-events: none; /* отключает свойства для курсора на элементе */
+	}
+	.menu {
+		flex-flow: column nowrap;
+		padding: 6px 0;
+		position: inherit;
+	}
+	.product-card-content__button-buy {
+		width: 100%;
+	}
+	.menu__element {
+		margin: 0 6px;
+	}
+	.menu__element_selected::after {
+		display: none;
+	}
+	.wrapper {
+		margin-top: 0;
+	}
+}
+
+/* -------------------- */
+
+/* ЛОГИЧЕСКИЕ ОПЕРАТОРЫ */
+
+/* and or */
+
+
+
+/* ПРИМЕРЫ МЕДИА-ЗАПРОСОВ */
+
+/* @import url(./monochrome.css) (monochrome); */
+
+@media all {}    /* все */
+@media print {}  /* для предваительного просмотра при печати */
+@media screen {} /* экраны */
+@media speech {} /* для синтезаторов речи */
+
+@media (orientation: portrait) {}  /* портретная оринтация */
+@media (orientation: landscape) {} /* ландшафтрная ориентация */
+
+@media (resolution: 300dpi) {} /* разрешение экрана */
+@media (max-resolution: 300dpi) {} 
+@media (min-resolution: 300dpi) {} 
+
+@media (monochrome) {} /* для монохромных экранов */
+
+@media (width) {} /* ширина вьюпорта */
+@media (max-width) {}
+@media (min-width) {}
+
+@media (height) {} /* высота вьюпорта */
+@media (max-height) {}
+@media (min-height) {}
