@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Tupo;
+  src: url(font/tupo-vyaz_regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Klee;
+  src: url(font/KleeOne-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Comforter;
+  src: url(font/ComforterBrush-Regular.ttf) format("truetype");
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poem {
+    width: 500px;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.author {
+    text-align: end;
+    font-family: Comforter;
+    font-size: 40px;
+    padding-right: 10px;
+}
+.text{
+    font-family: Klee;
+    font-size: 16px;
+}
+h1 {
+    font-family: Tupo;
+    font-size: 40px;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    top: 500;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.grade{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+li{
+    font-size: 35px;
+}
+.like{
+    background-color:chartreuse;
+    transition: transform 0.25s;
+}
+.like:hover {
+  transform: scale(1.1);
+}
+.dislike{
+    background-color:red;
+    transition: transform 0.25s;
+}
+.dislike:hover {
+  transform: scale(1.1);
+}
