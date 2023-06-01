@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'Toscania';
+	src: url('./fonts/toscania.woff2') format('woff2'), 
+		url('./fonts/toscania.woff') format('woff'), 
+		url('./fonts/toscania.ttf') format('truetype'), 
+		url('./fonts/toscania.svg#toscania') format('svg');
+}
+
+@font-face {
+	font-family: 'Bodoni initials';
+	src: url('./fonts/bodoni_initials.woff2') format('woff2'), 
+		url('./fonts/bodoni_initials.woff') format('woff'), 
+		url('./fonts/bodoni_initials.ttf') format('truetype'), 
+		url('./fonts/bodoni_initials.svg#bodoni initials') format('svg');
+}
+
+.main {
+	background: #cc9;
+	border-radius: 30px;
+	padding: 10px 5px 10px 5px;
+	width: 50%;
+	margin: 40px auto;
+	text-align: center;
+	font-family: 'Gabriola';
+	font-size: 16pt;
+}
+
+.font_main{
+	font-family: Arial;
+	font-size: 16pt;
+	font-style:italic;
+}
+h1
+{
+	font-family: 'Bodoni initials';
+	font-size: 28pt;
+	font-weight: 200;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.author {
+	margin-top: 20px;
+	text-align: right;
+	color: #606;
+	font-family: 'Toscania';
+	font-size: 16pt;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.buttons {
+	width: 50%;
+	margin: 40px auto;
+	text-align: center;
+}
+button
+{
+	display: inline-block;
+	border: none;
+	color: #333;
+	font-family: 'Bodoni initials';
+	font-size: 24pt;
+	border-radius: 10px;
+}
+button:active
+{
+	transform: scale(1.1);   
+}
+button.like {
+	background-color: #3f6;
+}
+button.like:hover
+{
+	background-color: #9f9;
+	cursor: pointer;
+}
+button.dislike {
+	background-color: #f30;
+}
+button.dislike:hover
+{
+	background-color: #f66;
+	cursor: pointer;
+}
+
