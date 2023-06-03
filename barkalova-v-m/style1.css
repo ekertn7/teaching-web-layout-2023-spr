@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0cbe5c;
+    color: #111;
+    font-size: 14px;
+	  font-style: italic;
+	  font-family: 'Baskerville',"Palatino Linotype",  "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  
+div, h1,  p {
+      margin: 0;
+      padding: 0;
+}
+    
+#poem {
+  margin: auto;
+  padding: 20px 0;
+  text-align: left;
+  width: 390px;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+    font-size: 34px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+
+p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.fon{
+   margin: 25vh auto;
+   text-align:center;
+   width:600px;
+   height:540px;
+   background:#f5f5dc;
+   border-radius:30px;
+} 
+.button {
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   font-size: 16px;
+   margin:5pt;
+   cursor: pointer;
+   border-radius: 20px;
+}
+    
+.indent {
+      margin-top: 70px;
+}
+    
+.like {
+      background-color: green;
+}
+
+.dislike {
+      background-color: red;
+}
+    
