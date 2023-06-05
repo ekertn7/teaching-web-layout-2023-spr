@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  width: 100%;
+  padding: 40px;
+}
+
+.plants {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plant {
+  max-width: 260px;
+  background-color: rgb(236, 215, 255);
+  
+  padding: 10px;
+  border-radius: 6px;
+
+  text-align: center;
+  font-size: 24px;
+}
+
+.plant img {
+  width: 100%;
+  border-radius: 6px;
+}
