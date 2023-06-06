@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+}
+
+.object {
+  width: 100%;
+  padding: 40px;
+}
+
+.plants {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plant {
+  max-width: 260px;
+  background-color:blanchedalmond;
+
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.plant img {
+  width: 100%;
+}
