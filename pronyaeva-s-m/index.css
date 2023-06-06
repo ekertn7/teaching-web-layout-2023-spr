@@ -1,0 +1,96 @@
+@font-face
+{
+	font-family: 'PT Sans';
+	src:  local("PT Sans"), url('fonts_poem/pt_sans.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts_poem/pt_sans.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts_poem/pt_sans.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts_poem/pt_sans.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts_poem/pt_sans.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts_poem/pt_sans.svg#pt_sans') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face
+{
+	font-family: 'Vivaldi script';
+	src: local("Vivaldi script"), url('fonts_author/vivaldi_script.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts_author/vivaldi_script.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts_author/vivaldi_script.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts_author/vivaldi_script.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts_author/vivaldi_script.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts_author/vivaldi_script.svg#vivaldi_script') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face
+{
+	font-family: 'okolaks Bold Italic';
+	src: local("okolaks Bold Italic"), url('fonts_h1/okolaks_bold_italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts_h1/okolaks_bold_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts_h1/okolaks_bold_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts_h1/okolaks_bold_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts_h1/okolaks_bold_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts_h1/okolaks_bold_italic.svg#okolaks_bold_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+.main
+{
+    display: block;
+    justify-content: center;
+    background-color: #FFCC99;
+    font-weight: normal;
+	width: 30%;
+	margin: 50px auto;
+	border-radius: 10px;
+	padding: 1px 35px;
+	position: relative;
+}
+h1
+{
+    margin-bottom: 5px;
+    font-size: 53px;
+    font-family:"okolaks Bold Italic";
+    text-align: center;
+}
+.poem
+{
+    font-size: 23px;
+    font-family:"PT Sans";
+    text-align: center;
+}
+.author
+{
+    margin-top: 0px;
+    font-size: 33px;
+    font-family:"Vivaldi script";
+    text-align: right;
+}
+.btn button
+{
+    display: inline-block;
+	margin: 0 auto;
+	border: none;
+    color: white;
+	font-size: 22px;
+	border-radius: 25px;
+	padding: 15px;
+    font-family:"PT Sans";
+	
+}
+.btn button.like:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+.btn button.like
+{
+    background-color: #33CC00;
+}
+.btn button.dislike:hover
+{
+    background-color: #CC0000;
+    cursor: pointer;
+}
+.btn button.dislike
+{
+    background-color: #FF3300;
+}
+.btn button:active
+{
+    transform: scale(1.2);   
+}

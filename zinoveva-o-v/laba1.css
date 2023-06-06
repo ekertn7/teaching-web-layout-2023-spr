@@ -1,0 +1,86 @@
+.container
+{
+  width: 50%;
+  margin: 40px auto;
+  text-align: center;
+}
+.main
+{
+  background: #ccffcc;
+  border-radius: 30px;
+  padding: 10px 30px 10px 30px;
+  font-family: 'Gabriola';
+  font-size: 18pt;
+}
+h1
+{
+  font-family: 'Ttwalls Roughbold';
+  font-size: 32pt;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.author
+{
+  margin-top: 20px;
+  text-align: right;
+  color: #003300;
+  font-family: 'Nexa Script Light';
+  font-size: 16pt;
+  font-style: italic;
+}
+@font-face {
+	font-family: 'Nexa Script Light';
+	src: 
+		url('./fonts/nexa_script_light.woff2') format('woff2'), 
+		url('./fonts/nexa_script_light.woff') format('woff'), 
+		url('./fonts/nexa_script_light.ttf') format('truetype'), 
+		url('./fonts/nexa_script_light.svg#nexa_script_light') format('svg');
+}
+@font-face {
+	font-family: 'Gabriola';
+	src: 
+		url('./fonts/gabriola.woff2') format('woff2'), 
+		url('./fonts/gabriola.woff') format('woff'), 
+		url('./fonts/gabriola.ttf') format('truetype'), 
+		url('./fonts/gabriola.svg#gabriola') format('svg');
+}
+@font-face {
+	font-family: 'Ttwalls Roughbold';
+	src: 
+		url('./fonts/ttwalls-roughbold.woff2') format('woff2'), 
+		url('./fonts/ttwalls-roughbold.woff') format('woff'), 
+		url('./fonts/ttwalls-roughbold.ttf') format('truetype'), 
+		url('./fonts/ttwalls-roughbold.svg#ttwalls-roughbold') format('svg');
+}
+button
+{
+  display: inline-block;
+	border: none;
+  color: #ffffff;
+  font-family: 'Gabriola';
+	font-size: 24pt;
+	border-radius: 20px;
+}
+button:active
+{
+  transform: scale(1.3);   
+}
+button.like:hover
+{
+  background-color: #006600;
+  cursor: pointer;
+}
+button.like
+{
+  background-color: #009933;
+}
+button.not_like:hover
+{
+  background-color: #660000;
+  cursor: pointer;
+}
+button.not_like
+{
+  background-color: #CC0000;
+}

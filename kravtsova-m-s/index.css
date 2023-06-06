@@ -1,0 +1,115 @@
+body{
+    overflow-y:scroll;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 0;
+    background-color: #FFFFCC;
+}
+.block{
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: #330099;
+    border-radius: 20px;
+}
+h1{
+    font-family: 'Vivaldi script';
+    font-size: 28pt;
+    text-align: center;
+    color:#FFFF99;
+}
+.poem{
+    font-family: 'Larisa script';
+    font-size: 16pt;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+.author{
+    font-family: 'Vivaldi script';
+    font-size: 22pt;
+    text-align: right;
+    margin-right: 10px;
+    color:#FFFF99;
+}
+.buttons{
+    margin-top: 40px;
+}
+button{
+    cursor: pointer;
+    border: 1px solid #000;
+}
+.like{
+    font-family: 'Nexa Script Light';
+    font-size: 18pt;
+    width: auto;
+    height: auto;
+    margin-right: 15px;
+    background-color: #66FF66;
+    border-radius: 17px;
+    padding:10px;
+}
+.like:hover{
+    background-color: #33FF00;
+}
+.like:active{
+    background-color: #33FF00;
+    font-weight: bold;
+}
+.like:focus{
+    background-color: #33FF00;
+    font-weight: bold;
+}
+.dislike{
+    font-family: 'Nexa Script Light';
+    font-size: 18pt;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    background-color:#FF9966 ;
+    border-radius: 17px;
+    padding:10px;
+}
+.dislike:hover{
+    background-color: #FF6600;
+}
+.dislike:active{
+    background-color: #FF6600;
+    font-weight: bold;
+}
+.dislike:focus{
+    background-color: #FF6600;
+    font-weight: bold;
+}
+@font-face {
+	font-family: 'Nexa Script Light';
+	src: url('Fonts/font_nexa_script_light/nexa_script_light.eot'); 
+	src: url('Fonts/font_nexa_script_light/nexa_script_light.eot?#iefix') format('embedded-opentype'), 
+		url('Fonts/font_nexa_script_light/nexa_script_light.woff2') format('woff2'), 
+		url('Fonts/font_nexa_script_light/nexa_script_light.woff') format('woff'),
+		url('Fonts/font_nexa_script_light/nexa_script_light.ttf') format('truetype'), 
+		url('Fonts/font_nexa_script_light/nexa_script_light.svg#nexa_script_light') format('svg');
+}
+@font-face {
+	font-family: 'Larisa script';
+	src: url('Fonts/font_larisa_script/larisa_script.eot'); 
+	src: url('Fonts/font_larisa_script/larisa_script.eot?#iefix') format('embedded-opentype'), 
+		url('Fonts/font_larisa_script/larisa_script.woff2') format('woff2'), 
+		url('.Fonts/font_larisa_script/larisa_script.woff') format('woff'), 
+		url('Fonts/font_larisa_script/larisa_script.ttf') format('truetype'), 
+		url('Fonts/font_larisa_script/larisa_script.svg#larisa_script') format('svg'); 
+}
+@font-face {
+	font-family: 'Vivaldi script';
+	src: url('Fonts/font_vivaldi_script/vivaldi_script.eot');
+	src: url('Fonts/font_vivaldi_script/vivaldi_script.eot?#iefix') format('embedded-opentype'),
+		url('Fonts/font_vivaldi_script/vivaldi_script.woff2') format('woff2'), 
+		url('Fonts/font_vivaldi_script/vivaldi_script.woff') format('woff'), 
+		url('Fonts/font_vivaldi_script/vivaldi_script.ttf') format('truetype'),
+		url('Fonts/font_vivaldi_script/vivaldi_script.svg#vivaldi_script') format('svg'); 
+}

@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url("../fonts/bebasneue/BebasNeueRegular.eot");
+	src: url("../fonts/bebasneue/BebasNeueRegular.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/bebasneue/BebasNeueRegular.woff") format("woff");
+	src: url("../fonts/bebasneue/BebasNeueRegular.ttf") format("truetype");
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Engine';
+	src: url("../fonts/engine/Engine-Regular.eot");
+	src: url("../fonts/engine/Engine-Regular.eot?#iefix") format("embedded-opentype");
+	src: url("../fonts/engine/Engine-Regular.woff") format("woff");
+	src: url("../fonts/engine/Engine-Regular.ttf") format("truetype");
+	font-style: normal;
+}
+*{
+    cursor: default;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+body {
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 18px;
+    color:black;
+}
+h1 {
+    padding: 10px;
+    font-family: 'Bebas Neue';
+    padding: 10px;
+}
+div {
+    display: block;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    background-color:cornsilk;
+    border:0;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+p {
+    margin: 15px auto;
+}
+.poem {
+    width:400px;
+    font-family: 'Engine';
+    font-size: 24px;
+}
+.author {
+    text-align: right;
+    padding: 10px;
+    width:400px;
+    font-family: 'Engine';
+    font-size: 24px;
+}
+
+
+form {
+    display: block;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    margin: 10px auto;
+    padding: 0;
+}
+button {
+    margin: 10px auto;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bold;
+    color:white;
+    cursor:pointer;
+}
+button:active{
+    padding: 15px;
+}
+.like {
+    background-color: lightgreen;
+}
+.dislike {
+    background-color: red;
+}
