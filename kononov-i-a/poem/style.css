@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: Delicious Handrawn;
+    src: url(fonts/DeliciousHandrawn-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Fasthand;
+    src: url(fonts/Fasthand-Regular.ttf) format("truetype");
+}
+
+.center {
+    margin: auto;
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    background-color: blanchedalmond;
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 25px;
+}
+h1 {
+    font-family: Delicious Handrawn, cursive;
+    font-style: italic;
+    margin-bottom: 0;
+}
+p {
+    font-family: Fasthand, cursive;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+.author {
+    font-family: Delicious Handrawn, cursive;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 50px;
+    text-align: end;
+}
+.rating {
+    margin-top: 20px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.upvote {
+    background-color: #4CAF50;
+}
+.downvote {
+    background-color: #f44336;
+}

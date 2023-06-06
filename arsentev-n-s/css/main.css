@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+    text-align: center;
+    font-size: 26px;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.poem{
+    width: 520px;
+    height: auto;
+    background-color:rgb(255, 184, 92);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 20px;
+    margin-top: 100px;
+}
+
+.poem_title{
+    font-family: "Amatic SC";
+}
+
+.poem_text{
+    font-size: 110%;
+    font-family: "Caveat";
+}
+
+.poem_author{
+    text-align: right;
+    padding-right: 10px;
+    font-family: "Pacifico";
+    font-style: italic;
+}
+
+.grade{
+    text-align: center;
+}
+
+button{
+    font-size: 18px;
+    width: 100px;
+    margin: 20px 10px 0px; 
+    height: 50px;
+    border-radius: 20px;
+    font-family: "Nunito";
+    border:none
+}
+button:hover{
+    cursor: pointer;
+}
+
+.like{
+    background-color:#00ff00;
+}
+
+.dislike{
+    background-color:#ff0000;
+}

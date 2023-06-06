@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "MontserratAlternates";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fonts/MontserratAlternates-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fonts/ElMessiri-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Caveat";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fonts/Caveat-VariableFont_wght.ttf) format("truetype");
+}
+
+.poem-name{
+    font-family: "El Messiri", sans-serif;
+    font-size: 64px;
+}
+.poem-block{
+    text-align: center;
+}
+.poem{
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: gray;
+}
+.poem-body{
+    font-family: "MontserratAlternates", sans-serif;
+    font-size: 32px;
+}
+.poem-author{
+    width: 100%;
+    text-align: right;
+    font-family: "Caveat", sans-serif;
+    font-size: 40px;
+}
+.poem-author > span{
+    margin-right: 1em;
+}
+.rate-block{
+    display: flex;
+    justify-content: center;
+}
+.rate-button{
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "MontserratAlternates", sans-serif;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+.like{
+    background-color: green;
+}
+.dislike{
+    background-color: red;
+}

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Gogol';
+    src: url('../fonts/Gogol/gogol_regular.otf');
+}
+
+@font-face {
+    font-family: 'Theater Atlas Deco';
+    src: url('../fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.ttf');
+}
+
+.text-wrap {
+    width: fit-content;
+    margin: 200px auto 0px auto;
+    padding: 30px 40px 10px 40px;
+    background-color: rgb(244, 243, 217);
+    border-radius: 20px;
+}
+
+.text-wrap h1, .quatrain {
+    color: rgb(60, 60, 60);
+    text-align: center;
+}
+
+.text-wrap h1 {
+    font-family: 'Theater Atlas Deco';
+    font-size: 36pt;
+    margin-top: 0px;
+    padding: 0px 60px 0px 60px;
+}
+
+.quatrain {
+    font-family: monospace;
+    font-size: 18pt;
+}
+
+.author {
+    font-family: 'Gogol';
+    font-size: 24pt;
+    color: rgb(93, 6, 8);
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.buttons-wrap {
+    width: fit-content;
+    margin: 50px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button-like, .button-dislike {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12pt;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.button-like {
+    background-color: rgb(21, 192, 48);
+}
+
+.button-dislike {
+    background-color: rgb(237, 96, 58);
+}

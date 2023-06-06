@@ -1,0 +1,65 @@
+
+.pashatehnik 
+{
+  text-align: center;
+}
+
+.styh 
+{
+  background-color: bisque;
+  font-size: 32px;
+  max-width: 650px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.author
+{
+  font-size: 23px;
+  font-family: "Stalinist One";
+}
+
+h1
+{
+ font-size: 50px;
+ font-family: "Stalinist One"
+}
+
+.knopki
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.like, .dislike, .norm
+{
+  margin: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+ cursor: pointer;
+}
+
+.like
+{
+  background-color:chartreuse;
+}
+
+.dislike
+{
+  background-color: indianred;
+}
+
+.norm
+{
+  background-color: cadetblue;
+}
+
+p
+{
+  font-family: "Oswald";
+}

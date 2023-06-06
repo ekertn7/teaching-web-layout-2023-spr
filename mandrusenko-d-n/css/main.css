@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+
+body
+{
+    text-align: center;
+    margin-top: 7em;
+    font-size: 24px;
+}
+
+h1
+{
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+h2
+{
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.poem
+{
+    width: 500px;
+    background-color:antiquewhite;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poem_title
+{
+    font-family: "Pangolin";
+}
+
+.poem_text
+{
+    font-family: "Caveat";
+}
+
+.poem_author
+{
+    text-align: right;
+    margin-right: 10px;
+    font-family: "Caveat";
+    font-style: italic;
+}
+
+.poem_grade
+{
+    margin-top: 20px;
+}
+
+button
+{
+    font-size: 16px;
+    margin: 10px;
+    padding:10px;
+    width: 100px;;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    font-family: "Rubik Vinyl";
+}
+
+.like
+{
+    background-color:green;
+}
+
+.dislike
+{
+    background-color:coral;
+}

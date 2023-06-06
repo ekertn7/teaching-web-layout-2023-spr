@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+.main_div {
+    font-family: 'Rubik Iso', cursive;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-weight: normal;
+    font-size: 28px;
+    color: #444444;
+    padding: 20px;
+    width: 50%;
+    text-align: left;
+    background-color: rgb(122, 201, 178);
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+p {
+    padding-bottom: 15px;
+    margin-left: 70px;
+}
+    
+.author {
+    text-align: right;
+    font-family: 'Caveat', cursive;
+}
+
+button {
+    border-radius: 40px;
+    padding: 3px;
+    margin: 5px auto;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.good, .bad {
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    font-size: 40px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.good {
+    background-color: rgb(20, 224, 20);
+}
+
+.bad {
+    background-color: red;
+}

@@ -1,0 +1,70 @@
+ p {
+    font-family:Verdana, sans-serif;
+    font-size: 14pt;
+ }
+ 
+ div {
+    display: block;
+    background-color: #fceda4;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px 5px;
+    color:#392900;
+ }
+
+ @font-face {
+    font-family: "Gawaa";
+    src: url("../fonts/Gawaa-Italic/Gawaa-Italic.eot");
+    src: url("../fonts/Gawaa-Italic/Gawaa-Italic.eot?#iefix") format("embedded-opentype");
+    src: url("../fonts/Gawaa-Italic/Gawaa-Italic.woff") format("woff");
+    src: url("../fonts/Gawaa-Italic/Gawaa-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+ }
+ @font-face {
+    font-family: "MarckScript";
+    src: url("../fonts/MarckScript-Regular/MarckScript-Regular.eot");
+    src: url("../fonts/MarckScript-Regular/MarckScript-Regular.eot?#iefix") format("embedded-opentype");
+    src: url("../fonts/MarckScript-Regular/MarckScript-Regular.woff") format("woff");
+    src: url("../fonts/MarckScript-Regular/MarckScript-Regular.ttf") format("truetype");
+    font-style: normal;
+ }
+
+ .first-font {
+    font-family: "Gawaa";
+    font-size: 32pt;
+ }
+
+ .second-font {
+    font-family: "MarckScript";
+    font-size: 16pt;
+    text-align: right;
+    padding-right: 10%;
+ }
+
+ button {
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    font-family:Verdana, sans-serif;
+    font-size: 14pt;
+    border: none;
+    cursor: pointer;
+ }
+
+ .btn {
+    background-color: white;
+ }
+
+ .btn-1 {
+    background-color: rgba(44, 231, 113, 0.8);
+ }
+
+ .btn-2 {
+    background-color: rgba(224, 21, 21, 0.8);
+ }
+ 

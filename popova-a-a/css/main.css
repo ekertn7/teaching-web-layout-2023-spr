@@ -1,0 +1,65 @@
+
+body {
+    background-color: antiquewhite;
+}
+.poem {
+
+    background-color: burlywood;
+    display: block;
+    width: 1000px;
+    height: 600px;
+    margin: 50px auto 10px;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+}
+form {
+    display: flex;
+    width: auto;
+    height: 100px;
+    flex-direction: row;
+	align-items: center;
+    padding-top: -100px; 
+    justify-content: space-evenly;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+}
+.yes-button {
+    background-color: rgb(64, 197, 93);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    border-style: double;
+    border-color: rgb(24, 107, 24);
+}
+
+.no-button {
+    background-color: rgb(221, 61, 50);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    border-style: double;
+    border-color: rgb(107, 24, 24);
+}
+
+.question {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+}
+
+.sign {
+    text-align: right;
+    font-family: 'Comforter', cursive;
+    font-size: 40pt;
+    padding-right: 50px;
+}
+
+.header {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 40pt;
+    padding-top: 30px;
+    font-weight: normal;
+}

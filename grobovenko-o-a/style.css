@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Hamiltone;
+  src: url(fonts/Hamiltone.ttf) format("truetype");
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(fonts/Montserrat.ttf) format("truetype");
+}
+@font-face {
+  font-family: GoodTimes;
+  src: url(fonts/GoodTimes.otf) format("opentype");
+}
+
+.poem {
+  width: 520px;
+  position: block;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(225, 225, 225, 0.635);
+  border-radius: 10px;
+}
+.author {
+  text-align: end;
+  font-family: GoodTimes;
+  font-size: 40px;
+  padding-right: 10px;
+}
+.text {
+  font-family: Montserrat;
+  font-size: 16px;
+}
+h1 {
+  font-family: Montserrat;
+  font-size: 28px;
+}
+.button {
+  width: 150px;
+  height: 50px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+ul {
+  list-style: none;
+}
+.grade {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+li {
+  font-size: 35px;
+}
+.like {
+  background-color: rgb(219, 255, 183);
+}
+.dislike {
+  background-color: rgb(255, 153, 153);
+}
+.like,
+.dislike {
+  font-family: Montserrat;
+  border-radius: 16px;
+  padding: 4px;
+  transition: transform 0.25s;
+  margin: 2px;
+  font-size: 20px;
+}
+.like:hover,
+.dislike:hover {
+  transform: scale(1.1);
+}
