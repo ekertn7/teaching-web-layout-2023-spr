@@ -1,0 +1,39 @@
+*{
+    margin: 0; 
+	padding: 0; 
+	outline: 0;
+	cursor: default;
+	border-radius: 0;
+}
+body {
+    text-align: center;
+	background-color: transparent;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.card {
+    align-items: center;
+    margin: 0 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 7px rgb(0 0 0 / 27%);
+}
+img {
+    width: 200px;
+    height: 180px;
+    margin: 7px;
+    display: block;
+}
+h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Caveat', cursive;
+    font-weight:lighter;
+    color: rgb(53 20 20 / 90%);
+}
