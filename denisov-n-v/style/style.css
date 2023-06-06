@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    place-items: center;
+    height: 100vh;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 300px;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.photo .text-under-photo {
+    margin: 10px 0px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
