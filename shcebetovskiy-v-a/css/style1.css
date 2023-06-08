@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Old+Standard+TT&family=Rancho&display=swap');
 
@@ -34,8 +33,7 @@ h1
 
 .author
 {
-    padding-left: 200px;
-    color: #6b0203;
+    padding-left: 200px;    color: #6b0203;
     font-size: 22px;
     font-family: 'Caveat', cursive;
 }
