@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ground{
+    display: block;
+    background-color: #F5DEB3;
+    width: 300px;
+    height: auto;
+    margin: 100px auto 10px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.title{
+	font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+.text{
+    font-size: 21px;
+}
+
+.paragraph {
+    text-align: center;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.author{
+    text-align: right;
+	font-family: 'Caveat', cursive;
+    font-size: 35px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+button{
+    font-size: 15px;
+    border: 0;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.like{
+    background-color: #98FB98;
+}
+
+.dislike{
+    background-color: rgba(244, 92, 92, 0.985);
+}
