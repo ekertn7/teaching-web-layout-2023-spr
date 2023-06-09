@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Bad;
+  src: url(font/BadScript-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: SourceCodePro;
+  src: url(font/SourceCodePro-VariableFont_wght.ttf) format("truetype");
+}
+
+.poem {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(245, 245, 220);
+}
+.author {
+    text-align: end;
+    font-family: Bad;
+    font-size: 40px;
+    padding-right: 10px;
+}
+.text{
+    font-family: SourceCodePro;
+    font-size: 16px;
+}
+h1 {
+    font-family: Bad;
+    font-size: 40px;
+}
+.button{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-evenly;
+    top: 600;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+ul {
+  list-style: none;
+}
+.grade{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+
+li{
+    color: rgb(252, 234, 234);
+    font-size: 25px;
+    font-family: SourceCodePro;
+    padding: 5px;
+}
+.like{
+    margin: 5px;
+    border-radius: 10px;
+    background-color:rgb(0, 200, 26);
+    
+}
+.like:hover {
+    background-color: rgb(70, 180, 65);
+    transform: scale(1.1);
+}
+.dislike{
+    margin: 5px;
+    border-radius: 10px;
+    background-color:rgb(240, 106, 58);
+   
+}
+.dislike:hover {
+    background-color: rgb(220, 77, 68);
+    transform: scale(1.1);
+}
+
+
